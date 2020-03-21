@@ -1,8 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import TicTacToe from "./pages/TicTacToe";
 
 const App = () => {
-  return <div>React Template</div>;
+  return <TicTacToe />;
 };
 
 ReactDOM.render(<App />, document.getElementById("root"));

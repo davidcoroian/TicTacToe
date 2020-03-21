@@ -1,0 +1,34 @@
+.box {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+  border-radius: 10%;
+  margin: 1px;
+  height: 95px;
+  width: 95px;
+  cursor: pointer;
+}
+
+.board {
+  margin: 300px auto;
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+  width: 300px;
+}
+
+.symbol {
+  font-size: 60px;
+  align-self: center;
+}
+
+.button {
+  font-size: 15px;
+  padding: 15px;
+  margin: 15px 0;
+}
+
+.winner {
+  font-size: 20px;
+  margin: 15px 20px;
+}
